@@ -1,3 +1,26 @@
+.example{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.childs{
+  font-size: 30px;
+}
+.list{
+  width: 100px;
+  height: 100px;
+}
+.list{
+  width: 100px;
+  height: 100px;
+}
+/* =========== Selectors ============= */
+
 h3{
   font-size: 32px;
   margin: 0;
@@ -19,11 +42,6 @@ h3{
   color: blueviolet;
 }
 
-.colorized{
-  color: red;
-}
-
-/* Прямой потомок */
 h5 > span {
   font-size: 26px;
   color: aqua;
@@ -32,7 +50,6 @@ h5 > span {
 h3 + #title {
   font-size: 80px;
 }
-
 
 h3 ~ h3 {
   margin-top: 50px;
@@ -47,11 +64,6 @@ h3 ~ h3 {
   color: red;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-}
-
 a:visited {
   color: orange;
 }
@@ -62,10 +74,6 @@ a[href*="vk"]{
 
 .input:focus {
   border: 3px solid green;
-}
-
-.childs{
-  font-size: 30px;
 }
 
 .childs p:first-child{
@@ -92,10 +100,6 @@ a[href*="vk"]{
   text-decoration: underline;
 }
 
-.list{
-  width: 100px;
-  height: 100px;
-}
 .list:empty{
   background-color: red;
 }
