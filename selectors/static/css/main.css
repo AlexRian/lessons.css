@@ -3,15 +3,15 @@ h3{
   margin: 0;
 }
 
-.red{
+.colored{
   color: red;
 }
 
-.padding.red{
+.padding.colored{
   padding: 10px;
 }
 
-.red span{
+.colored span{
   color: green;
 }
 
