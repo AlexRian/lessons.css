@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+
+h1{
+  font-family: 'Roboto';
+}
+
+.font-example{
+  color: red;
+  font-family: 'Roboto';
+}
+
+.font-example{
+  font-family: 'Roboto';
+}
+
+.line-height-example{
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+.transform-example{
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+.weight-example{
+  font-weight: 800;
+}
+
+.break-example{
+  font-size: 25px;
+  width: 50%;
+  word-break: break-all;
+  text-indent: 5%;
+}
+
+.sizes-example{
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.sizes-example h3:nth-child(1){
+  font-size: 25px;
+}
+
+.sizes-example h3:nth-child(2){
+  font-size: 40%;
+}
+
+.sizes-example h3:nth-child(3){
+  font-size: 1em;
+}
+
+.sizes-example h3:nth-child(4){
+  font-size: 2rem;
+}
